@@ -1,9 +1,8 @@
 #include <iostream>
-#include <string>
 using namespace std;
-int main()
-{
+int main() {
   int a, b;
+  cout << "Enter two numbers: ";
   cin >> a >> b;
   cout << a + b;
 }
